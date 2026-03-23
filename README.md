@@ -1,5 +1,7 @@
 # diagnostico-datos
 
+![showcase](image.png)
+
 # Arquitectura de la solución
 
 GitHub API > miner.py > Redis Message Broker > visualizer.py > Interfaz HTML
