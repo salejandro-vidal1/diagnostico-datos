@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  miner:
+    build: ./miner
+    depends_on:
+      - redis
+
+  visualizer:
+    build: ./visualizer
+    depends_on:
+      - redis
+    ports:
+      - "8000:8000"
