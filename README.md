@@ -19,7 +19,7 @@ Debe registrar un Token clásico desde su cuenta de GitHub en la aplicación y r
 Una vez hecho eso, debe tener instalado Docker en su equipo y navegar a la carpeta raíz del proyecto y ejecutar
 
 ```
-docker-compile up --build
+docker-compose up --build
 ```
 
 Después de eso deberá navegar a
