@@ -10,7 +10,7 @@ HEADERS = {
     "Accept": "application/vnd.github+json"
 }
 
-HEADERS["Authorization"] = f"token {'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'}"
+HEADERS["Authorization"] = f"token {''}"
 
 r = redis.Redis(host="redis", port=6379, decode_responses=True)
 
